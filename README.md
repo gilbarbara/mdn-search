@@ -6,4 +6,4 @@ Search MDN with Alfred 2.
 
 ## Getting Started
 
-You can download this with [packal](https://github.com/packal/repository/raw/master/org.kollectiv.mdn-search/mdn-search.alfredworkflow) for easy updates or directly from [here](https://github.com/gilbarbara/mdn-search/raw/master/MDNSearch.alfredworkflow).
+You can download this with [packal](http://www.packal.org/system/files/workflow-files/com.gilbarbara.mdn-search/workflow/mdnsearch.alfredworkflow) for easy updates.

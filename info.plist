@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>ork.kollectiv.mdn-search</string>
+	<string>com.gilbarbara.mdn-search</string>
 	<key>category</key>
 	<string>Developer</string>
 	<key>connections</key>
