@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#./node_modules/.bin/gulp --silent
+red=`tput setaf 1`
+bold=`tput bold`
+reset=`tput sgr0`
+
+echo "${red}${bold}** Don't forget to rebuild the workflow **${reset}"
+
+exit $?
