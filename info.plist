@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.gilbarbara.mdn-search</string>
+	<string>ork.kollectiv.mdn-search</string>
 	<key>category</key>
 	<string>Developer</string>
 	<key>connections</key>
@@ -23,7 +23,7 @@
 	<key>createdby</key>
 	<string>Gil Barbara</string>
 	<key>description</key>
-	<string>Search Mozilla Developer Network</string>
+	<string>Search MDN</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
