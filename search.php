@@ -56,7 +56,7 @@ $results[] = array(
 $curl = curl_init();
 curl_setopt_array($curl, array(
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => $search_url . $query,
+    CURLOPT_URL => $search_url . urlencode($query),
 ));
 $output = curl_exec($curl);
 curl_close($curl);
@@ -80,7 +80,7 @@ if (!empty($data) && $data->count > 0) {
         'uid' => 'placeholder',
         'title' => 'No documents were found that matched "'.$query.'".',
         'subtitle' => 'Click to see the results for yourself',
-        'arg' => $url . 'search?q=' . $query,
+        'arg' => $url . 'search?q=' . urlencode($query),
         'icon' => 'icon.png',
         'valid' => 'yes'
     );
